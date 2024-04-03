@@ -1,0 +1,616 @@
+Helix Summary
+LEU /A:33 -> LYS /A:43
+LEU /A:45 -> LEU /A:63
+LEU /A:64 -> ALA /A:67
+PRO /A:72 -> PHE /A:80
+PRO /A:81 -> LEU /A:89
+LYS /A:90 -> LEU /A:92
+ILE /A:93 -> SER /A:106
+ALA /A:110 -> ILE /A:142
+PRO /A:147 -> LEU /A:153
+SER /A:164 -> LEU /A:175
+GLN /A:182 -> CYS /A:184
+ALA /A:207 -> SER /A:213
+LEU /A:214 -> ASN /A:216
+VAL /A:242 -> MET /A:256
+GLY /A:257 -> ALA /A:263
+LYS /A:264 -> ILE /A:284
+MET /A:285 -> TYR /A:287
+PRO /A:289 -> ILE /A:301
+LEU /A:306 -> GLY /A:314
+MET /A:315 -> ILE /A:330
+PHE /A:331 -> THR /A:340
+PRO /A:344 -> PHE /A:352
+GLN /A:353 -> THR /A:361
+SER /A:364 -> LEU /A:368
+PRO /A:369 -> ASN /A:378
+LYS /A:383 -> ILE /A:396
+ASP /A:399 -> MET /A:415
+GLY /A:422 -> GLY /A:438
+ALA /A:445 -> LEU /A:447
+THR /A:449 -> LEU /A:451
+LEU /A:452 -> VAL /A:457
+GLU /A:462 -> ALA /A:469
+VAL /A:470 -> LYS /A:498
+SER /A:499 -> SER /A:532
+ASN /A:533 -> ASN /A:535
+
+Ladder Summary
+GLN /A:186 -> LEU /A:196 antiparallel MET /A:228 -> ASP /A:238
+
+Residue Summary
+
+MET /A:1            
+ALA /A:2            
+SER /A:3            
+THR /A:4            
+GLU /A:5            
+GLY /A:6            
+ALA /A:7            
+ASN /A:8            
+ASN /A:9            
+MET /A:10            
+PRO /A:11            
+LYS /A:12            
+GLN /A:13            
+VAL /A:14            
+GLU /A:15            
+VAL /A:16            
+ARG /A:17            
+MET /A:18            
+HIS /A:19            
+ASP /A:20            
+SER /A:21            
+HIS /A:22            
+LEU /A:23            
+GLY /A:24            
+SER /A:25            
+GLU /A:26            
+GLU /A:27            
+PRO /A:28            
+LYS /A:29            
+HIS /A:30            
+ARG /A:31            
+HIS /A:32   > >      
+LEU /A:33 H 3 >      
+GLY /A:34 H 3 >      
+LEU /A:35 H < >      
+ARG /A:36 H   X      
+LEU /A:37 H   X      
+CYS /A:38 H   X      
+ASP /A:39 H   X      
+LYS /A:40 H   X      
+LEU /A:41 H   <      
+GLY /A:42 H > <      
+LYS /A:43 H 3 <      
+ASN /A:44   3 X      
+LEU /A:45 H < >      
+LEU /A:46 H   >      
+LEU /A:47 H   >      
+THR /A:48 H   X      
+LEU /A:49 H   X      
+THR /A:50 H   X      
+VAL /A:51 H   X      
+PHE /A:52 H   X      
+GLY /A:53 H   X      
+VAL /A:54 H   X      
+ILE /A:55 H   X      
+LEU /A:56 H   X      
+GLY /A:57 H   X      
+ALA /A:58 H   X      
+VAL /A:59 H   X      
+CYS /A:60 H   X      
+GLY /A:61 H   X      
+GLY /A:62 H   X      
+LEU /A:63 H > X      
+LEU /A:64 G > <      
+ARG /A:65 G > <      
+LEU /A:66 G < <      
+ALA /A:67 G < <      
+SER /A:68   <        
+PRO /A:69            
+ILE /A:70            
+HIS /A:71   > >      
+PRO /A:72 H 3 >      
+ASP /A:73 H 3 >      
+VAL /A:74 H < >      
+VAL /A:75 H   X      
+MET /A:76 H   X      
+LEU /A:77 H   <      
+ILE /A:78 H   <      
+ALA /A:79 H > X      
+PHE /A:80 H 3 X      
+PRO /A:81 H 3 >      
+GLY /A:82 H < >      
+ASP /A:83 H   X      
+ILE /A:84 H   X      
+LEU /A:85 H   X      
+MET /A:86 H   X      
+ARG /A:87 H   X      
+MET /A:88 H   X      
+LEU /A:89 H > X      
+LYS /A:90 G > X      
+MET /A:91 G 3 <      
+LEU /A:92 G < X      
+ILE /A:93 H < X      
+LEU /A:94 H   X      
+PRO /A:95 H   >      
+LEU /A:96 H   X      
+ILE /A:97 H   X      
+ILE /A:98 H   X      
+SER /A:99 H   X      
+SER /A:100 H   X      
+LEU /A:101 H   X      
+ILE /A:102 H   X      
+THR /A:103 H   X      
+GLY /A:104 H   <      
+LEU /A:105 H > <      
+SER /A:106 H 3 <      
+GLY /A:107   3 <      
+LEU /A:108   <        
+ASP /A:109   > >      
+ALA /A:110 H 3 >      
+LYS /A:111 H 3 >      
+ALA /A:112 H < >      
+SER /A:113 H   X      
+GLY /A:114 H   X      
+ARG /A:115 H   X      
+LEU /A:116 H   X      
+GLY /A:117 H   X      
+THR /A:118 H   X      
+ARG /A:119 H   X      
+ALA /A:120 H   X      
+MET /A:121 H   X      
+VAL /A:122 H   X      
+TYR /A:123 H   X      
+TYR /A:124 H   X      
+MET /A:125 H   X      
+SER /A:126 H   X      
+THR /A:127 H   X      
+THR /A:128 H   X      
+ILE /A:129 H   X      
+ILE /A:130 H   X      
+ALA /A:131 H   X      
+ALA /A:132 H   X      
+VAL /A:133 H   X      
+LEU /A:134 H   X      
+GLY /A:135 H   X      
+VAL /A:136 H   X      
+ILE /A:137 H   X      
+LEU /A:138 H   X      
+VAL /A:139 H   X      
+LEU /A:140 H   <      
+ALA /A:141 H   <      
+ILE /A:142 H   <      
+HIS /A:143     <      
+PRO /A:144            
+GLY /A:145            
+ASN /A:146   > >      
+PRO /A:147 H 3 >      
+LYS /A:148 H 3 >      
+LEU /A:149 H X >      
+LYS /A:150 H 3 X      
+LYS /A:151 H 3 <      
+GLN /A:152 H < <      
+LEU /A:153 H   <      
+GLY /A:154     <      
+PRO /A:155            
+GLY /A:156            
+LYS /A:157            
+LYS /A:158            
+ASN /A:159            
+ASP /A:160            
+GLU /A:161            
+VAL /A:162            
+SER /A:163     >      
+SER /A:164 H   >      
+LEU /A:165 H   >      
+ASP /A:166 H   >      
+ALA /A:167 H   X      
+PHE /A:168 H   X      
+LEU /A:169 H   X      
+ASP /A:170 H   X      
+LEU /A:171 H   X      
+ILE /A:172 H   X      
+ARG /A:173 H   <      
+ASN /A:174 H   <      
+LEU /A:175 H   <      
+PHE /A:176     <      
+PRO /A:177            
+GLU /A:178            
+ASN /A:179     >      
+LEU /A:180 H   >      
+VAL /A:181 H > 4      
+GLN /A:182 G > >      
+ALA /A:183 G 3 <      
+CYS /A:184 G < <      
+PHE /A:185   < 4      
+GLN /A:186 E   <   A A
+GLN /A:187 E       A A
+ILE /A:188 E       A A
+GLN /A:189 E       A A
+THR /A:190 E       A A
+VAL /A:191 E       A A
+THR /A:192 E       A A
+LYS /A:193 E       A A
+LYS /A:194 E       A A
+VAL /A:195 E       A A
+LEU /A:196 E       A A
+VAL /A:197            
+ALA /A:198            
+PRO /A:199            
+PRO /A:200            
+PRO /A:201            
+ASP /A:202            
+GLU /A:203            
+GLU /A:204            
+ALA /A:205            
+ASN /A:206   > >      
+ALA /A:207 H 3 >      
+THR /A:208 H 3 >      
+SER /A:209 H < >      
+ALA /A:210 H   X      
+VAL /A:211 H   X      
+VAL /A:212 H   X      
+SER /A:213 H > <      
+LEU /A:214 G > <      
+LEU /A:215 G 3 <      
+ASN /A:216 G X <      
+GLU /A:217   <        
+THR /A:218   3        
+VAL /A:219   <        
+THR /A:220            
+GLU /A:221            
+VAL /A:222            
+PRO /A:223            
+GLU /A:224            
+GLU /A:225            
+THR /A:226            
+LYS /A:227            
+MET /A:228 E       A A
+VAL /A:229 E       A A
+ILE /A:230 E       A A
+LYS /A:231 E       A A
+LYS /A:232 E       A A
+GLY /A:233 E       A A
+LEU /A:234 E       A A
+GLU /A:235 E       A A
+PHE /A:236 E       A A
+LYS /A:237 E       A A
+ASP /A:238 E       A A
+GLY /A:239            
+MET /A:240            
+ASN /A:241     >      
+VAL /A:242 H   >      
+LEU /A:243 H   >      
+GLY /A:244 H   >      
+LEU /A:245 H   X      
+ILE /A:246 H   X      
+GLY /A:247 H   X      
+PHE /A:248 H   X      
+PHE /A:249 H   X      
+ILE /A:250 H   X      
+ALA /A:251 H   X      
+PHE /A:252 H   X      
+GLY /A:253 H   X      
+ILE /A:254 H   X      
+ALA /A:255 H   X      
+MET /A:256 H > X      
+GLY /A:257 G > <      
+LYS /A:258 G 3 <      
+MET /A:259 G X <      
+GLY /A:260 G X <      
+ASP /A:261 G >        
+GLN /A:262 G <        
+ALA /A:263 G X >      
+LYS /A:264 H < >      
+LEU /A:265 H 3 >      
+MET /A:266 H < >      
+VAL /A:267 H   X      
+ASP /A:268 H   X      
+PHE /A:269 H   X      
+PHE /A:270 H   X      
+ASN /A:271 H   X      
+ILE /A:272 H   X      
+LEU /A:273 H   X      
+ASN /A:274 H   X      
+GLU /A:275 H   X      
+ILE /A:276 H   X      
+VAL /A:277 H   X      
+MET /A:278 H   X      
+LYS /A:279 H   X      
+LEU /A:280 H   X      
+VAL /A:281 H   X      
+ILE /A:282 H   X      
+MET /A:283 H   X      
+ILE /A:284 H > X      
+MET /A:285 G > <      
+TRP /A:286 G 3 <      
+TYR /A:287 G X X      
+SER /A:288 H < X      
+PRO /A:289 H 3 >      
+LEU /A:290 H < >      
+GLY /A:291 H   X      
+ILE /A:292 H   X      
+ALA /A:293 H   X      
+CYS /A:294 H   X      
+LEU /A:295 H   X      
+ILE /A:296 H   X      
+CYS /A:297 H   X      
+GLY /A:298 H   X      
+LYS /A:299 H   <      
+ILE /A:300 H > <      
+ILE /A:301 H 3 <      
+ALA /A:302   3 <      
+ILE /A:303   <        
+LYS /A:304            
+ASP /A:305     >      
+LEU /A:306 H   >      
+GLU /A:307 H   >      
+VAL /A:308 H   >      
+VAL /A:309 H   X      
+ALA /A:310 H   X      
+ARG /A:311 H   <      
+GLN /A:312 H   <      
+LEU /A:313 H   X      
+GLY /A:314 H   X      
+MET /A:315 H   >      
+TYR /A:316 H   >      
+MET /A:317 H   X      
+VAL /A:318 H   X      
+THR /A:319 H   X      
+VAL /A:320 H   X      
+ILE /A:321 H   X      
+ILE /A:322 H   X      
+GLY /A:323 H   X      
+LEU /A:324 H   X      
+ILE /A:325 H   X      
+ILE /A:326 H   X >    
+HIS /A:327 H   < >    
+GLY /A:328 H   < 5    
+GLY /A:329 H   < 5    
+ILE /A:330 I   X 5    
+PHE /A:331 H   > <    
+LEU /A:332 H   > <    
+PRO /A:333 H   >      
+LEU /A:334 H   X      
+ILE /A:335 H   X      
+TYR /A:336 H   X      
+PHE /A:337 H   X      
+VAL /A:338 H   <      
+VAL /A:339 H   <      
+THR /A:340 H   <      
+ARG /A:341     <      
+LYS /A:342            
+ASN /A:343     >      
+PRO /A:344 H   >      
+PHE /A:345 H   >      
+SER /A:346 H   >      
+PHE /A:347 H > X      
+PHE /A:348 H 3 X      
+ALA /A:349 H 3 <      
+GLY /A:350 H < <      
+ILE /A:351 H > X      
+PHE /A:352 H 3 X      
+GLN /A:353 H 3 >      
+ALA /A:354 H < >      
+TRP /A:355 H   X      
+ILE /A:356 H   X      
+THR /A:357 H   X      
+ALA /A:358 H   X      
+LEU /A:359 H   <      
+GLY /A:360 H   <      
+THR /A:361 H   <      
+ALA /A:362     <      
+SER /A:363     >      
+SER /A:364 H   >      
+ALA /A:365 H   4      
+GLY /A:366 H   4      
+THR /A:367 H > X      
+LEU /A:368 H 3 X      
+PRO /A:369 H 3 >      
+VAL /A:370 H < >      
+THR /A:371 H   X      
+PHE /A:372 H   X      
+ARG /A:373 H   X >    
+CYS /A:374 H   < >    
+LEU /A:375 H   < 5    
+GLU /A:376 H   < 5    
+GLU /A:377 I   < 5    
+ASN /A:378 I     <    
+LEU /A:379       <    
+GLY /A:380            
+ILE /A:381            
+ASP /A:382   > >      
+LYS /A:383 H 3 >      
+ARG /A:384 H 3 >      
+VAL /A:385 H X >      
+THR /A:386 H 3 X      
+ARG /A:387 H 3 <      
+PHE /A:388 H < X      
+VAL /A:389 H   X      
+LEU /A:390 H   X      
+PRO /A:391 H   >      
+VAL /A:392 H > X      
+GLY /A:393 H 3 X      
+ALA /A:394 H 3 <      
+THR /A:395 H < <      
+ILE /A:396 H   <      
+ASN /A:397     <      
+MET /A:398   > >      
+ASP /A:399 H 3 >      
+GLY /A:400 H 3 >      
+THR /A:401 H < >      
+ALA /A:402 H   X      
+LEU /A:403 H   X      
+TYR /A:404 H   X      
+GLU /A:405 H   X      
+ALA /A:406 H   X      
+VAL /A:407 H   X      
+ALA /A:408 H   X      
+ALA /A:409 H   X      
+ILE /A:410 H   X      
+PHE /A:411 H   X      
+ILE /A:412 H   X      
+ALA /A:413 H   < >    
+GLN /A:414 H > < 5    
+MET /A:415 H 3 < 5    
+ASN /A:416   3 < 5    
+GLY /A:417   <   5    
+VAL /A:418       <    
+VAL /A:419            
+LEU /A:420            
+ASP /A:421     >      
+GLY /A:422 H   >      
+GLY /A:423 H   >      
+GLN /A:424 H   >      
+ILE /A:425 H   X      
+VAL /A:426 H   X      
+THR /A:427 H   X      
+VAL /A:428 H   X      
+SER /A:429 H   X      
+LEU /A:430 H   X      
+THR /A:431 H   X      
+ALA /A:432 H   X      
+THR /A:433 H   X      
+LEU /A:434 H   X      
+ALA /A:435 H > X      
+SER /A:436 H 3 <      
+VAL /A:437 H 3 <      
+GLY /A:438 H < <      
+ALA /A:439     <      
+ALA /A:440            
+SER /A:441            
+ILE /A:442   >        
+PRO /A:443   3        
+SER /A:444   >        
+ALA /A:445 G X >      
+GLY /A:446 G 3 >      
+LEU /A:447 G < 4      
+VAL /A:448 H X 4      
+THR /A:449 G > X      
+MET /A:450 G 3 X      
+LEU /A:451 G < >      
+LEU /A:452 H < >      
+ILE /A:453 H   X      
+LEU /A:454 H   X >    
+THR /A:455 H > < 5    
+ALA /A:456 H 3 < 5    
+VAL /A:457 H 3 < 5    
+GLY /A:458   < < 5    
+LEU /A:459       <    
+PRO /A:460            
+THR /A:461   >        
+GLU /A:462 G >        
+ASP /A:463 G > >      
+ILE /A:464 G X >      
+SER /A:465 G < 4      
+LEU /A:466 G X 4      
+LEU /A:467 G X X      
+VAL /A:468 G 3 X      
+ALA /A:469 G < 4      
+VAL /A:470 H X >      
+ASP /A:471 H 3 X      
+TRP /A:472 H 3 X      
+LEU /A:473 H < >      
+LEU /A:474 H   X      
+ASP /A:475 H   X      
+ARG /A:476 H   X      
+MET /A:477 H   X      
+ARG /A:478 H   X      
+THR /A:479 H   X      
+SER /A:480 H   X      
+VAL /A:481 H   X      
+ASN /A:482 H   X      
+VAL /A:483 H   X      
+VAL /A:484 H   X      
+GLY /A:485 H   X      
+ASP /A:486 H   X      
+SER /A:487 H   X      
+PHE /A:488 H   X      
+GLY /A:489 H   X      
+ALA /A:490 H   X      
+GLY /A:491 H   X      
+ILE /A:492 H   X      
+VAL /A:493 H   X      
+TYR /A:494 H   X      
+HIS /A:495 H   <      
+LEU /A:496 H   <      
+SER /A:497 H > X      
+LYS /A:498 H 3 X      
+SER /A:499 H 3 >      
+GLU /A:500 H < >      
+LEU /A:501 H   X      
+ASP /A:502 H   X      
+THR /A:503 H   X      
+ILE /A:504 H   X      
+ASP /A:505 H   X      
+SER /A:506 H   X      
+GLN /A:507 H   X      
+HIS /A:508 H   X      
+ARG /A:509 H   X      
+VAL /A:510 H   X      
+HIS /A:511 H   X      
+GLU /A:512 H   X      
+ASP /A:513 H   X      
+ILE /A:514 H   X      
+GLU /A:515 H   X      
+MET /A:516 H   X      
+THR /A:517 H   X      
+LYS /A:518 H   X      
+THR /A:519 H   X      
+GLN /A:520 H   X      
+SER /A:521 H   X      
+ILE /A:522 H   X      
+TYR /A:523 H   X      
+ASP /A:524 H   X      
+ASP /A:525 H   X      
+MET /A:526 H   X      
+LYS /A:527 H   X      
+ASN /A:528 H   X      
+HIS /A:529 H   X      
+ARG /A:530 H   X      
+GLU /A:531 H   <      
+SER /A:532 H > <      
+ASN /A:533 G > <      
+SER /A:534 G 3 <      
+ASN /A:535 G <        
+GLN /A:536   <        
+CYS /A:537            
+VAL /A:538            
+TYR /A:539            
+ALA /A:540            
+ALA /A:541            
+HIS /A:542            
+ASN /A:543            
+SER /A:544            
+VAL /A:545            
+ILE /A:546            
+VAL /A:547            
+ASP /A:548            
+GLU /A:549            
+CYS /A:550            
+LYS /A:551            
+VAL /A:552            
+THR /A:553            
+LEU /A:554            
+ALA /A:555   >        
+ALA /A:556   3        
+ASN /A:557   3        
+GLY /A:558   <        
+LYS /A:559            
+SER /A:560            
+ALA /A:561            
+ASP /A:562            
+CYS /A:563            
+SER /A:564            
+VAL /A:565            
+GLU /A:566            
+GLU /A:567            
+GLU /A:568            
+PRO /A:569            
+TRP /A:570            
+LYS /A:571            
+ARG /A:572            
+GLU /A:573            
+LYS /A:574            
