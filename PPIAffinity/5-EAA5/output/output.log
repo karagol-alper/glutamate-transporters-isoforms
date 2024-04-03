@@ -1,0 +1,38 @@
+:::::::::::::::::::::::::::::::::::::::::::
+  ..:: Welcome to PPI-Affinity v 1.0 ::..
+:::::::::::::::::::::::::::::::::::::::::::
+-> Crystal structure(s) file(s): input_Kg47UeO.zip
+-> The structures will be ranked by the binding affinity values showing the most active first
+-> The Applicability Domain of the models will not be taken into account to filter the final structures
+-> The identifier of the ligand is: B
+
+..:: Binding Affinity predictor module ::..
+
+Calculating the descriptors with ProtDCal...
+Log file has been created.
+Parameters configuration has been loaded correctly.
+
+:::::::::::::::::::::::::::::::::::::::
+  ..:: Welcome to ProtDCal 4.0 ::..
+:::::::::::::::::::::::::::::::::::::::
+
+There are 1 IDL projects.
+The output path is: Outputs
+The input path is: Datasets/Pdb_Protein_Format
+Preparing data to calculations...
+Executing ProtDCal in specific calculation mode...
+The output files were created.
+Loading and executing the IDL file: ppro_project.idl
+35 proteins will be processed....
+The project ppro_project.idl is finished.
+Removing configuration of file ppro_project.idl ...
+ *** Calculations for these configurations concluded correctly ***
+..::Thanks for using ProtDCal::..
+
+Calculating the scores...
+Checking Applicability Domain of the complexes...
+Preparing output files...
+
+ *** Success *** 
+
+=> Job completed <=
