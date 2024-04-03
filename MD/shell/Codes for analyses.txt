@@ -1,0 +1,56 @@
+dos2unix start.sh
+chmod +x start.sh
+nohup ./start.sh > start.log &
+
+dos2unix eq2.sh
+chmod +x eq2.sh
+nohup ./eq2.sh > eq_out_g.log &
+
+dos2unix produce2.sh
+chmod +x produce2.sh
+nohup ./produce2.sh > pr_output.log &
+
+
+gmx trjcat -f step7_1.trr step7_2.trr step7_3.trr step7_4.trr step7_5.trr step7_6.trr step7_7.trr step7_8.trr step7_9.trr step7_10.trr -settime -o fixed.trr
+
+sudo apt-get install grace
+gmx gyrate -f fixed.trr -s step7_10.tpr -o gyrate_fixedstep7.xvg
+grace -nxy gyrate_fixedstep7.xvg -hdevice PNG -hardcopy -printfile gyrate_fixedstep7.png
+
+gmx sasa -f fixed.trr -s step7_10.tpr -o sasa_fixedstep7.xvg
+gmx sasa -f step7_10.trr -s step7_10.tpr -o sasa_step710.xvg
+grace -nxy sasa_fixedstep7.xvg -hdevice PNG -hardcopy -printfile sasa_fixedstep7.png
+grace -nxy sasa_step710.xvg -hdevice PNG -hardcopy -printfile sasa_step710.png
+
+gmx rmsf -f fixed.trr -s step7_10.tpr -o rmsf_fixedstep7.xvg -oc correl_fixedstep7.xvg -oq bfac1_fixedstep7.pdb -ox xaver1_fixedstep7.pdb -dir rmsf_fixedstep7.log
+grace -nxy rmsf_fixedstep7.xvg -hdevice PNG -hardcopy -printfile rmsf_fixedstep7.png
+grace -nxy correl_fixedstep7.xvg -hdevice PNG -hardcopy -printfile correl_fixedstep7.png
+
+gmx traj -f fixed.trr -s step7_10.tpr -ox coordtraj_fixedstep7.xvg -ov velotraj_fixedstep7.xvg -of forcetraj_fixedstep7.xvg -cv velotraj_fixedstep7.pdb -cf forcetraj_fixedstep7.pdb 
+grace -nxy coordtraj_fixedstep7.xvg -hdevice PNG -hardcopy -printfile coordtraj_fixedstep7.png
+grace -nxy forcetraj_fixedstep7.xvg -hdevice PNG -hardcopy -printfile forcetraj_fixedstep7.png
+grace -nxy velotraj_fixedstep7.xvg -hdevice PNG -hardcopy -printfile velotraj_fixedstep7.png
+
+
+
+gmx trjcat -f step7_3.trr step7_4.trr step7_5.trr step7_6.trr step7_7.trr step7_8.trr step7_9.trr step7_10.trr -settime -o fixed2.trr
+
+gmx gyrate -f fixed2.trr -s step7_10.tpr -o gyrate_fixed2step7.xvg
+grace -nxy gyrate_fixed2step7.xvg -hdevice PNG -hardcopy -printfile gyrate_fixed2step7.png
+
+gmx sasa -f fixed2.trr -s step7_10.tpr -o sasa_fixed2step7.xvg
+grace -nxy sasa_fixed2step7.xvg -hdevice PNG -hardcopy -printfile sasa_fixed2step7.png
+
+gmx rmsf -f fixed2.trr -s step7_10.tpr -o rmsf_fixed2step7.xvg -oc correl_fixed2step7.xvg -oq bfac1_fixed2step7.pdb -ox xaver1_fixed2step7.pdb -dir rmsf_fixed2step7.log
+grace -nxy rmsf_fixed2step7.xvg -maxpath 300000 -hdevice PNG -hardcopy -printfile rmsf_fixed2step7.png
+grace -nxy correl_fixed2step7.xvg -hdevice PNG -hardcopy -printfile correl_fixed2step7.png
+
+gmx traj -f fixed2.trr -s step7_10.tpr -ox coordtraj_fixed2step7.xvg -ov velotraj_fixed2step7.xvg -of forcetraj_fixed2step7.xvg -cv velotraj_fixed2step7.pdb -cf forcetraj_fixed2step7.pdb 
+grace -nxy coordtraj_fixed2step7.xvg -hdevice PNG -hardcopy -printfile coordtraj_fixed2step7.png
+grace -nxy forcetraj_fixed2step7.xvg -hdevice PNG -hardcopy -printfile forcetraj_fixed2step7.png
+grace -nxy velotraj_fixed2step7.xvg -hdevice PNG -hardcopy -printfile velotraj_fixed2step7.png
+
+cd -
+./gdrive upload --parent 12qSX2pQpSds2QppzPGgwbr3sOguHMffl --recursive ./gromacscan250
+tar -czvf results350.tar.gz /home/alper_penpal/gromacs250ns/
+
